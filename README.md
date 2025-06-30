@@ -112,3 +112,8 @@ Esegui il comando:
 python brainstorming.py
 ```
 
+### 7. Terminare la Sessione e Visualizzare il Risultato Finale
+
+Durante la sessione di brainstorming, puoi digitare `stop` per terminare la discussione e ricevere un riepilogo finale delle idee e delle valutazioni generate dagli agenti.
+
+
