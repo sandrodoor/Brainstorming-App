@@ -1,3 +1,5 @@
+##Progetto personale relativo al corso Agenti Intelligenti e Machine Learning by Aitho, UNICT 2024/2025
+
 # Brainstorming AI Interattivo
 
 Questa applicazione, realizzata in vibe coding grazie a Gemini 2.5 flash, ti permette di fare brainstorming su un problema o un'idea con un gruppo di agenti AI che possiedono diverse personalità: il Visionario, il Critico e il Pragmatico. Un Supervisore coordina il loro lavoro, guidando la discussione attraverso un ciclo di turni per ciascuna idea.
