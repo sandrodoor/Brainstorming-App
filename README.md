@@ -95,7 +95,8 @@ L'applicazione richiede una chiave API di **Google Gemini** per poter generare i
 GOOGLE_API_KEY="la_tua_chiave_api_qui"
 ```
 3.Salva il file.
-4. Non condividere mai questo file pubblicamente o su GitHub senza proteggerlo
+
+4. Non condividere mai questo file pubblicamente o su GitHub senza proteggerlo.
 
 
 ### 6. Eseguire l'Applicazione
