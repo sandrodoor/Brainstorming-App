@@ -16,7 +16,7 @@ L'applicazione segue un flusso conversazionale intuitivo:
 
 Il ciclo si ripete per ogni tua nuova idea.
 
-Quando digiti "esci", la sessione di brainstorming termina.
+Quando digiti "stop", la sessione di brainstorming termina.
 
 ## Requisiti
 
