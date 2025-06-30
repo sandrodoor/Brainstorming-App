@@ -1,4 +1,4 @@
-### Progetto personale relativo al corso Agenti Intelligenti e Machine Learning by Aitho, UNICT 2024/2025
+# Progetto personale relativo al corso Agenti Intelligenti e Machine Learning by Aitho, UNICT 2024/2025
 
 
 # Brainstorming AI Interattivo
