@@ -25,49 +25,47 @@ Segui questi passaggi per configurare ed eseguire l'applicazione.
 1. Clona il Repository (se applicabile) e Naviga nella Directory
 Se hai ricevuto questi file in un repository Git, clonalo. Altrimenti, assicurati che tutti i file (.env, requirements.txt, main.py, utils.py - nota: il tuo file principale è main.py non brainstorming.py come nell'esempio) si trovino nella stessa directory.
 
-Bash
-
+'''Bash
 git clone <url_del_tuo_repository>
 cd <nome_della_directory>
 
-2. Creare un Ambiente Virtuale
+#2. Creare un Ambiente Virtuale
 È buona pratica creare un ambiente virtuale per gestire le dipendenze del progetto in modo isolato.
 
-Per Windows (CMD o PowerShell):
+#Per Windows (CMD o PowerShell):
+'''python -m venv venv
 
-python -m venv venv
-
-Per macOS / Linux / PowerShell:
-
-python3 -m venv venv
+#Per macOS / Linux / PowerShell:
+'''python3 -m venv venv
 
 (Nota: python3 potrebbe essere necessario su alcuni sistemi Linux/macOS se python punta a Python 2).
 
-3. Accedere all'Ambiente Virtuale
+#3. Accedere all'Ambiente Virtuale
 Dopo aver creato l'ambiente virtuale, devi attivarlo.
 
-Per Windows (CMD):
+#Per Windows (CMD):
 
+'''cmd
 .\venv\Scripts\activate
 
-Per Windows (PowerShell):
-
+#Per Windows (PowerShell):
+'''PowerShell
 .\venv\Scripts\Activate.ps1
 
-Per macOS / Linux:
-
+#Per macOS / Linux:
+'''bash
 source venv/bin/activate
 
 Una volta attivato, vedrai (venv) apparire all'inizio della riga di comando, indicando che sei nell'ambiente virtuale.
 
-4. Installare le Dipendenze
+#4. Installare le Dipendenze
 Con l'ambiente virtuale attivo, installa tutte le librerie necessarie elencate nel file requirements.txt.
 
 Per tutti i sistemi (con ambiente virtuale attivo):
-
+'''bash
 pip install -r requirements.txt
 
-5. Configurare la GOOGLE_API_KEY
+#5. Configurare la GOOGLE_API_KEY
 L'applicazione richiede una chiave API di Google Gemini per funzionare.
 
 Generare la Chiave API:
@@ -88,7 +86,7 @@ GOOGLE_API_KEY="la_tua_chiave_api_qui"
 
 Salva il file .env.
 
-6. Eseguire l'Applicazione
+#6. Eseguire l'Applicazione
 Ora sei pronto per avviare il brainstorming!
 
 Per tutti i sistemi (con ambiente virtuale attivo):
