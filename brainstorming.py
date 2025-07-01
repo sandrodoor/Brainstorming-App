@@ -58,7 +58,7 @@ supervisor_prompt = (
     "**Inizia sempre** passando la richiesta iniziale dell'utente al **Visionario**.\n"
     "**Dopo la risposta del Visionario**, passa sempre il compito al **Critico** per una valutazione approfondita dell'idea appena generata dal Visionario.\n"
     "**Dopo l'analisi del Critico**, passa sempre il compito al **Pragmatico** per convertire le idee e le critiche in soluzioni concrete e attuabili.\n"
-    "**Dopo la risposta del Pragmatico**, se il brainstorming per questa specifica idea è concluso, valuta se puoi dare una sintesi all'utente. Altrimenti, se ritieni sia necessario, puoi chiedere di ripassare al Visionario per un'ulteriore iterazione sull'idea, o terminare il flusso per l'idea corrente se non c'è altro da aggiungere.\n"
+    "**Dopo la risposta del Pragmatico**, se il brainstorming per questa specifica idea è concluso, valuta se puoi dare una sintesi all'utente.\n"
     "Quando l'utente chiede esplicitamente di 'stop', il tuo compito è fornire una valutazione finale complessiva di tutti i brainstorming precedenti."
 )
 
