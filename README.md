@@ -116,4 +116,5 @@ python brainstorming.py
 
 Durante la sessione di brainstorming, puoi digitare `stop` per terminare la discussione e ricevere un riepilogo finale delle idee e delle valutazioni generate dagli agenti.
 
-
+# DISCLAIMER
+Questa applicazione è stata progettata per separare le fasi di elaborazione e presentazione dei risultati del brainstorming: per questo motivo, durante l'esecuzione, nonostante gli agenti AI interagiscono tra loro in tempo reale, il contenuto dettagliato delle loro risposte viene mostrato solo alla fine (dopo che l'utente digita stop), sotto forma di una cronologia completa.
